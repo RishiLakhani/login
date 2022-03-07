@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# A Login Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple page created using ReactJS. Here we can fond 2 buttons for logging in with Google and Facebook.
 
-## Available Scripts
+The application is composed of the following Features:
 
-In the project directory, you can run:
+* Page 1 has two buttons. One for Logging in using Google and other for logging in with Facebook.
+* On successful authentication with either, the user is directed to page 2.
+* Page 2 displays the name of the user and the method which they used to login.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Developed With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
+* [React](https://reactjs.org/) - A javascript library for building user interfaces
+* [Create react app](https://create-react-app.dev/) - A quick method to start developing a react application.
+* [react-google-login](https://www.npmjs.com/package/react-google-login) - React Library to login using Google.
+* [react-facebook-login](https://www.npmjs.com/package/react-facebook-login) - React Lobrary to login using Facebook.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following software is required to be installed on your system:
 
-### `npm run eject`
+* Node 8.x
+* Npm 3.x
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Type the following commands in the terminal to verify your node and npm versions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+node -v
+npm -v
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Follow the following steps to get development environment running.
 
-## Learn More
+* Clone _'react-e-commerce-website.git'_ repository from GitHub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ```bash
+  git clone https://github.com/RishiLakhani/login
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Install node modules
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Starting front-end servers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Build application
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  ```bash
+  npm start
+  ```
+---
 
 ### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can view the output of the code on: http://login-rishi.herokuapp.com
